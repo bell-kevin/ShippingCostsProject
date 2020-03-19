@@ -21,23 +21,23 @@ public class GetDistanceFactorTest {
     @Parameterized.Parameters
     public static Collection<Object[]> data() {
         Object[][] data = new Object[][] {
-            {50.0, 2.0}, // test case 1
-            {250.0, 5.0}, // test case 8
-            {550.0, 10.0}, // test case 15
-            {55.0, 2.0}, // test case 22
-            {255.0, 5.0}, // test case 23
-            {555.0, 10.0}, // test case 24
-            {99.9, 2.0}, // test case 25
-            {100.0, 5.0}, // test case 26
-            {499.9, 5.0}, // test case 27
-            {500.0, 10.0}, // test case 28
-            {512.3, 10.0}, // test case 43
-            {253.3, 5.0}, // test case 44
-            {98.6, 2.0}, // test case 45
-            {102.3, 5.0}, // test case 46
-            {952.0, 10.0}, // test case 47
-            {78.0, 2.0}, // test case 48
-            {3500.0, 10.0} // test case 49
+            { 50.0,  2.0},    // test case 1
+            {250.0,  5.0},    // test case 8
+            {550.0, 10.0},    // test case 15
+            { 55.0,  2.0},    // test case 22
+            {255.0,  5.0},    // test case 23
+            {555.0, 10.0},    // test case 24
+            { 99.9,  2.0},    // test case 25
+            {100.0,  5.0},    // test case 26
+            {499.9,  5.0},    // test case 27
+            {500.0, 10.0},    // test case 28
+            {512.3, 10.0},    // test case 43
+            {253.3,  5.0},    // test case 44
+            { 98.6,  2.0},    // test case 45
+            {102.3,  5.0},    // test case 46
+            {952.0, 10.0},    // test case 47
+            { 78.0,  2.0},    // test case 48
+            {850.0, 10.0}     // test case 49
         };
         return Arrays.asList(data);
     } //end Collection--data
