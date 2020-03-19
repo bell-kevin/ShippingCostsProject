@@ -21,23 +21,23 @@ public class GetWeightFactorTest {
     @Parameterized.Parameters
     public static Collection<Object[]> data() {
         Object[][] data = new Object[][] {
-            {5.0, 2.5}, // test case 1
-            {15.0, 10.0}, // test case 2
-            {30.0, 25.0}, // test case 3
-            {9.9, 2.5}, // test case 4
-            {10.0, 10.0}, // test case 5
-            {24.9, 10.0}, // test case 6
-            {25.0, 25.0}, // test case 7
-            {6.5, 2.5}, // test case 22
-            {16.5, 10.0}, // test case 29
-            {31.5, 25.0}, // test case 36
-            {4.3, 2.5}, // test case 43
-            {12.6, 10.0}, // test case 44
-            {26.3, 25.0}, // test case 45
-            {2.5, 2.5}, // test case 46
-            {11.6, 10.0}, // test case 47
-            {29.9, 25.0}, // test case 48
-            {26.5, 25.0} // test case 49
+            { 5.0,  2.5},    // test case 1
+            {15.0, 10.0},    // test case 2
+            {30.0, 25.0},    // test case 3
+            { 9.9,  2.5},    // test case 4
+            {10.0, 10.0},    // test case 5
+            {24.9, 10.0},    // test case 6
+            {25.0, 25.0},    // test case 7
+            { 6.5,  2.5},    // test case 22
+            {16.5, 10.0},    // test case 29
+            {31.5, 25.0},    // test case 36
+            { 4.3,  2.5},    // test case 43
+            {12.6, 10.0},    // test case 44
+            {26.3, 25.0},    // test case 45
+            { 2.5,  2.5},    // test case 46
+            {11.6, 10.0},    // test case 47
+            {29.9, 25.0},    // test case 48
+            {26.5, 25.0}     // test case 49
         };
         return Arrays.asList(data);
     } //end Collection--data
