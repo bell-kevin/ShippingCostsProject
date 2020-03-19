@@ -43,10 +43,10 @@ public class GetDistanceFactorTest {
     } //end Collection--data
 
     @Test
-    public void testGetCost() {
+    public void testGetDistanceFactor() {
         System.out.println("getDistanceFactor");
         assertEquals(distanceFactor, ShippingCosts.getDistanceFactor(distance), 0.0);
-    } //end testGetWeightFactor
+    } //end testGetDistanceFactor
 
 } //end class GetDistanceFactorTest
 

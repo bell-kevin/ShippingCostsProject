@@ -80,7 +80,7 @@ public class GetCostTest {
     public void testGetCost() {
         System.out.println("getCost");
         assertEquals(cost, ShippingCosts.getCost(weightFactor, distanceFactor), 0.0);
-    } //end testGetWeightFactor
+    } //end testGetCost
 
 } //end class GetCostTest
 

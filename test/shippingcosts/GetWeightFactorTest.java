@@ -43,7 +43,7 @@ public class GetWeightFactorTest {
     } //end Collection--data
 
     @Test
-    public void testGetCost() {
+    public void testGetWeightFactor() {
         System.out.println("getWeightFactor");
         assertEquals(weightFactor, ShippingCosts.getWeightFactor(weight), 0.0);
     } //end testGetWeightFactor
