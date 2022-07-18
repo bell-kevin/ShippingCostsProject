@@ -47,6 +47,4 @@ public class GetWeightFactorTest {
         System.out.println("getWeightFactor");
         assertEquals(weightFactor, ShippingCosts.getWeightFactor(weight), 0.0);
     } //end testGetWeightFactor
-
 } //end class GetWeightFactorTest
-
