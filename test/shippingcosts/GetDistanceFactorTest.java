@@ -47,6 +47,4 @@ public class GetDistanceFactorTest {
         System.out.println("getDistanceFactor");
         assertEquals(distanceFactor, ShippingCosts.getDistanceFactor(distance), 0.0);
     } //end testGetDistanceFactor
-
 } //end class GetDistanceFactorTest
-
