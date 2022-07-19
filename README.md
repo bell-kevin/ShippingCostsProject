@@ -37,7 +37,7 @@ For Java projects, create a test suite to run multiple tests in one run.
 
 Take a screenshot showing a successful test. Take screenshots of the calculation methods and of the unit test code.
 
-Submission: table of test cases document, specified screenshots and the root folder for the project
+Submission: Table of test cases document, specified screenshots and the root folder for the project
 
 == We're Using GitHub Under Protest ==
 
